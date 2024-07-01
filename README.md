@@ -1,21 +1,16 @@
-# TP-PA-WS_con_BS4_Public
-Repositorio público para el trabajo práctico de programación avanzada, Web Scraping con Beautiful Soup 4.
+# TRABAJO PRACTICO-PROGRAMACION AVANZADA WEB SCRAPING con BeautifulSoup.
+Repositorio para el trabajo práctico de programación avanzada, Web Scraping con Beautiful Soup 4.
 
-
-# Applicaión
 
 ## Descripción
 
-Esta aplicación es una herramienta simple que permite obtener enlaces, direcciones y precios de propiedades en venta o en alquiler en dos sitios web: [Argenprop](https://www.argenprop.com/) y [BuscadorProp](https://www.buscadorprop.com.ar/). Utiliza las bibliotecas `requests` y `BeautifulSoup` para hacer scraping de los datos, y `tkinter` para la interfaz gráfica de usuario.
+Esta aplicación es una herramienta simple que permite obtener direcciones y precios de propiedades en venta o en alquiler en dos sitios web: [Argenprop](https://www.argenprop.com/) y [BuscadorProp](https://www.buscadorprop.com.ar/). Utiliza las bibliotecas `requests` y `BeautifulSoup` para hacer scraping de los datos.
 
 ## Estructura del Proyecto
 
 El código está dividido en los siguientes archivos:
 
-1. **scraper.py**: Contiene la clase `PropertyScraper`, la cual se encarga de realizar el scraping de los sitios web.
-2. **gui.py**: Contiene la clase `PropertyApp`, la cual construye la interfaz gráfica de usuario utilizando `tkinter`.
-3. **main.py**: Archivo principal que inicializa la aplicación.
-4. **Readme.md**: Este archivo, que proporciona una descripción del funcionamiento de la aplicación.
+1. **Readme.md**: Este archivo, que proporciona una descripción del funcionamiento de la aplicación.
 
 ## Instalación y Uso
 
@@ -28,7 +23,7 @@ El código está dividido en los siguientes archivos:
     ```sh
     python main.py
     ```
-4. En la interfaz de usuario, seleccione el sitio web desde el cual desea obtener las propiedades y haga clic en "Scrape" para obtener los resultados.
+4. seleccione el sitio web desde el cual desea obtener las propiedades.
 
 ## Notas
 
